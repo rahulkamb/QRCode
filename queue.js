@@ -15,12 +15,5 @@ btngenerate.addEventListener("click", () => {
     }, 3000);
     console.log("End");
     generateQRCode();
-
-    // const load = document.querySelector(".loader");
-    // load.classList.add("loader-hidden");
-
-    // load.addEventListener("transitionend", () => {
-    //     document.body.removeChild("loader");
-    // })
     
 });
